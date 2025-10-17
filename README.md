@@ -21,43 +21,45 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Social Links Profile](./assets/images/social.png)
+![Recipe Page](./design/recipe.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abdiel-code/social-links-profile)
-- Live Site URL: [Add live site URL here](https://abdiel-code.github.io/social-links-profile)
+- Solution URL: [Add solution URL here](https://github.com/fm-challenges-abdiel/recipe-page)
+- Live Site URL: [Add live site URL here](https://fm-challenges-abdiel.github.io/recipe-page/)
 
 ## My process
 
 - Structure HTML with semantic tags
-- Structure CSS with mobile first approach
+- Structure CSS with desktop first approach
 - Adjust paddings and sizes
 - Using flex properties to proportionally expand
-- Desktop version comes inherit
+- Use a single media query to make it responsive for mobile.
 
 ### Built with
 
 - HTML5
 - CSS3
 - Flexbox
-- Mobile-first design
 
 ### What I learned
 
-This time I found a way faster to finish this project whithout struggling too much with space and size.
+I've been struggling with an issue this time, and it was the <main> tag or container class. This bug or issue makes my container to not have a radious, but there is a simple way to fix it,
+use the next code:
 
-### I'm proud of my code
-
-I'm proud of my whole css code and almost all my HTML one, even if there are some characteristics that i need to improve, and instead following frontend-mentor exact design, I decided to add some of my own, making the mobile version to look good and making it to no have an innecesary scroll down (at least for me).
+```CSS
+.container {
+  overflow: hidden;
+}
+```
 
 ### Continued development
 
-This practices are helping me too much to improve my designs even more and for sure I'll continue with this practices.
+This practice help me to realize some gaps that I have in my skills and its actually helping me to learn how to approach them. I will continue my frontend mentor paths!
 
 ### Useful resources
 
-- [w3schools Semantic Topics](https://www.w3schools.com/html/html5_semantic_elements.asp), this page have a fast guide on how to use semantic html for you all that are struggling like me.
+- [CSS Tricks Overflow Topic](https://css-tricks.com/preventing-child-background-overflow-with-inherited-border-radii/), this page help me when I was struggling with my container.
 
 ## Author
 
